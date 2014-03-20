@@ -4,6 +4,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.0'
 
 
+gem 'bootstrap-sass'
+
+
 group :development, :test do
   gem 'sqlite3'
 end
@@ -11,6 +14,8 @@ end
 group :production do
   gem 'pg'
 end
+
+gem 'simple_form'
 
 
 # Use SCSS for stylesheets
