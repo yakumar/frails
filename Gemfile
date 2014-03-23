@@ -17,6 +17,13 @@ end
 
 gem 'simple_form'
 
+gem 'devise'
+
+#Add fb
+
+gem 'omniauth-facebook'
+
+
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
